@@ -10,9 +10,8 @@ const Wrapper = styled.div`
   align-items: center;
 `;
 const ImgSearch = styled.img`
-  width: 4rem;
-  height: 4rem;
-  border: 1px solid #EC1D23;
+  width: 3rem;
+  height: 3rem;
   margin-left: 1.1rem;
 `;
 const Input = styled.input`
@@ -26,6 +25,7 @@ const Input = styled.input`
   outline: none;
 
 `;
+
 const Button = styled.button`
   width: 14.2rem;
   height: 4.2rem;
