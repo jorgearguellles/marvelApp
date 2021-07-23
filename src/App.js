@@ -1,9 +1,9 @@
-import TitleSection from './components/TitleSection';
+import BigCard from './components/BigCard';
 
 function App() {
   return (
     <>
-      <TitleSection />
+      <BigCard />
     </>
   );
 }

@@ -7,7 +7,6 @@ const Wrapper = styled.div`
 const Title = styled.p`
   width: 130rem;
   height: 4.7rem;
-  color: white;
   font-size: 4rem;
   line-height: 4.7rem;
   border-bottom: solid 1px white;
