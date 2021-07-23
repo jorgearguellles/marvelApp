@@ -1,9 +1,9 @@
-import Header from './components/Header/index';
+import TitleSection from './components/TitleSection';
 
 function App() {
   return (
     <>
-      <Header />
+      <TitleSection />
     </>
   );
 }
