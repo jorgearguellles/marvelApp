@@ -27,4 +27,20 @@ const Input = styled.input`
 
 `;
 
-export {Wrapper, ImgSearch, Input};
+const Button = styled.button`
+  width: ${props => props.width};
+  height: ${props => props.height};
+  background-color: ${props => props.redBackG ? "#EC1D23" : "white"};
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: ${props => props.fontWeight};
+  font-size: ${props => props.fontSize};
+  line-height: ${props => props.lineHeight};
+  text-align: center;
+  color: ${props => props.whiteText ?  "white" : "#16202A" };
+`;
+
+export {Wrapper, ImgSearch, Input, Button};

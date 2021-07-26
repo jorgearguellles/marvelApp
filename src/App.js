@@ -1,4 +1,5 @@
-import LoginLogout from './components/LoginLogout';
+
+import LoginLogout from "./components/LoginLogout/index";
 
 function App() {
   return (
