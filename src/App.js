@@ -1,9 +1,9 @@
-import Header from './components/Header';
+import InputLabel from './components/InputLabel';
 
 function App() {
   return (
     <>
-      <Header />
+      <InputLabel />
     </>
   );
 }
