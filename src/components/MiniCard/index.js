@@ -1,8 +1,8 @@
 import Hero from "../../img/imgHero.png";
 
-import {Wrapper, ImgHero, TextAddWrapper, TextWrapper, TitleName, HeroName, AddButton, RandomButton} from "./styles";
+import {Wrapper, ImgHero, TextAddWrapper, TextWrapper, TitleName, HeroName, AddButton} from "./styles";
 
-function Bigcard(){
+function Minicard(){
   return (
     <Wrapper>
       <ImgHero src={Hero}/>
@@ -13,9 +13,8 @@ function Bigcard(){
         </TextWrapper>
         <AddButton>+</AddButton>
       </TextAddWrapper>
-      <RandomButton>Random 3 Heroes</RandomButton>
     </Wrapper>
   )
 };
 
-export default Bigcard;
+export default Minicard;
