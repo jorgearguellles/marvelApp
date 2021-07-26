@@ -1,10 +1,11 @@
 import SearchBar from "../SearchBar/SearchBar";
-import {Wrapper, LogoText} from "./styles.js";
+import {Wrapper, LogoImg} from "./styles.js";
+import MarvelLogo from "../../img/Marvel_Logo.png";
 
 function Header(){
   return (
     <Wrapper>
-      <LogoText>Marvel App</LogoText>
+      <LogoImg src={MarvelLogo} />
       <SearchBar placeholder="Busca a tu súper heroe favorito"/>
     </Wrapper>
   )

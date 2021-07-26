@@ -8,12 +8,9 @@ const Wrapper = styled.div`
   align-items: center;
   padding: 0 6.7rem;
 `;
-const LogoText = styled.p`
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 50px;
-  line-height: 59px;
+const LogoImg = styled.img`
+  width: 20rem;
+  height: 4.2rem;
 `;
 
-export {Wrapper, LogoText};
+export {Wrapper, LogoImg};

@@ -1,9 +1,9 @@
-import BigCard from './components/BigCard';
+import Header from './components/Header';
 
 function App() {
   return (
     <>
-      <BigCard />
+      <Header />
     </>
   );
 }
