@@ -1,9 +1,11 @@
-import InputLabel from './components/InputLabel';
+import Buttom from './components/Buttom';
+import SearchBar from './components/SearchBar/SearchBar';
 
 function App() {
   return (
     <>
-      <InputLabel />
+      <Buttom />
+      <SearchBar />
     </>
   );
 }
