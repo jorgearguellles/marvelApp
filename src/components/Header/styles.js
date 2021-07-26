@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   padding: 0 6.7rem;
 `;
 const LogoImg = styled.img`
-  width: 20rem;
+  width: 15rem;
   height: 4.2rem;
 `;
 
