@@ -1,4 +1,4 @@
-import SearchBar from "../SearchBar/SearchBar";
+import SearchBar from "../SearchBar/index";
 import {Wrapper, LogoImg} from "./styles.js";
 import MarvelLogo from "../../img/Marvel_Logo.png";
 

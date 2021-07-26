@@ -27,20 +27,4 @@ const Input = styled.input`
 
 `;
 
-const Button = styled.button`
-  width: 14.2rem;
-  height: 4.2rem;
-  background-color: #EC1D23;
-  border-radius: 50px;
-  border: none;
-  outline: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 35px;
-  text-align: center;
-  color: white;
-`;
-
-export {Wrapper, ImgSearch, Input, Button};
+export {Wrapper, ImgSearch, Input};

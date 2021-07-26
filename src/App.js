@@ -1,11 +1,9 @@
-import Buttom from './components/Buttom';
-import SearchBar from './components/SearchBar/SearchBar';
+import LoginLogout from './components/LoginLogout';
 
 function App() {
   return (
     <>
-      <Buttom />
-      <SearchBar />
+      <LoginLogout />
     </>
   );
 }
