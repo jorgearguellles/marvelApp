@@ -1,9 +1,9 @@
 import {Wrapper, Title} from "./styles";
 
-function TitleSection(){
+function TitleSection(props){
   return (
     <Wrapper>
-      <Title>Lista de Favoritos</Title>
+      <Title>{props.titleSection}</Title>
     </Wrapper>
   )
 }

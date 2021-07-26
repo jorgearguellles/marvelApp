@@ -6,7 +6,7 @@ function Header(){
   return (
     <Wrapper>
       <LogoImg src={MarvelLogo} />
-      <SearchBar placeholder="Busca a tu súper heroe favorito"/>
+      <SearchBar placeholder="Busca a tu súper héroe favorito"/>
     </Wrapper>
   )
 }

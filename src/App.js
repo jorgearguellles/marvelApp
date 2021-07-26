@@ -1,10 +1,9 @@
-
-import LoginLogout from "./pages/LoginLogout/index";
+import NavBar from "./components/NavBar/index";
 
 function App() {
   return (
     <>
-      <LoginLogout />
+      <NavBar />
     </>
   );
 }

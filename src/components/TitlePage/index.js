@@ -1,9 +1,9 @@
 import {Wrapper, Title} from "./styles";
 
-function TitlePage(){
+function TitlePage(props){
   return (
     <Wrapper>
-      <Title>Lista de Favoritos</Title>
+      <Title>{props.titlePage}</Title>
     </Wrapper>
   )
 }
