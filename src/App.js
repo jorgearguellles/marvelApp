@@ -1,9 +1,16 @@
-import Header from "./components/Header/index";
+import Home from "./pages/Home/index";
+import LoginLogout from "./pages/LoginLogout";
+import HeroDetails from "./pages/HeroDetails";
 
 function App() {
   return (
     <>
-      <Header />
+      <LoginLogout />
+      <br />
+      <Home />
+      <br />
+
+      <HeroDetails />
     </>
   );
 }

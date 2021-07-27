@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-width: 16.3rem;
-height: 28.1rem;
-border: 1px solid #EC1D23;
+  width: 16.3rem;
+  height: 28.1rem;
+  margin: 2rem 4rem 0rem;
+
 `;
 const ImgHero = styled.img`
 width: 16rem;
