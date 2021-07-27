@@ -1,17 +1,11 @@
-import styled from "styled-components";
-
-const Nav = styled.nav``;
-const Ul = styled.ul``;
-const Li = styled.li``;
-const A = styled.a``;
-
+import { Nav,Ul,Li,A} from "./styles";
 
 function NavBar(){
   return(
     <Nav>
       <Ul>
-        <Li><A>Log In</A></Li>
-        <Li><A>Favoritos</A></Li>
+        <Li><A href="/">Log In</A></Li>
+        <Li><A href="/" >Favoritos</A></Li>
       </Ul>
     </Nav>
   )
