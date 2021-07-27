@@ -9,7 +9,6 @@ function App() {
       <br />
       <Home />
       <br />
-
       <HeroDetails />
     </>
   );
