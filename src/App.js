@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import env from "react-dotenv";
 import Home from "./pages/Home/index";
 import Global from "./globalStyles";
-
+import LoginLogout from "./pages/LoginLogout";
 
 function App() {
   const [characters, setCharacters] = useState({});
@@ -20,6 +20,7 @@ function App() {
     <>
       <Global />
       <Home />
+      <LoginLogout />
     </>
   );
 }

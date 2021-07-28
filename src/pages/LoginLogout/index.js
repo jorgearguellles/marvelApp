@@ -1,7 +1,8 @@
 import InputLabel from "../../components/InputLabel/index";
+import Button from "../../components/Button/styles";
 import MarvelLogo from "../../img/Marvel_Logo.png";
 
-import {Logo, Wrapper, WrapperForm, WrapperRS, Title, Button, Text} from "./styles";
+import {Logo, Wrapper, WrapperForm, WrapperRS, Title, Text} from "./styles";
 
 function LoginLogout(){
   return(
