@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 const Logo = styled.img`
-  width: 30rem;
-  height: 13rem;
+  width: 25rem;
+  height: 11rem;
+  margin-top: 1rem;
 `;
 
 const Wrapper = styled.div`
