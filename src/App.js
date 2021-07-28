@@ -1,5 +1,7 @@
+import env from "react-dotenv";
 import { createGlobalStyle } from "styled-components";
 import Home from "./pages/Home/index";
+
 
 const Global = createGlobalStyle`
   * {
