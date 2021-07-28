@@ -3,7 +3,6 @@ import env from "react-dotenv";
 import { createGlobalStyle } from "styled-components";
 import Home from "./pages/Home/index";
 
-// ts=1&apikey=1234&hash=ffd275c5130566a2916217b101f26150
 
 
 const Global = createGlobalStyle`
@@ -26,16 +25,17 @@ const Global = createGlobalStyle`
 // const HASH = "68cf490a1bf1fd3b9fa556dd99e6914b";
 
 function App() {
-  const [data, setData] = useState({});
+  const [characters, setCharacters] = useState({});
 
   useEffect(
     () => {
       fetch(`https://gateway.marvel.com/v1/public/characters?ts=1&apikey=${env.API_KEY}&hash=${env.HASH}`)
         .then((response) => response.json())
-        .then((data) => setData(data.data.results));
+        .then((data => setCharacters(data)));
     },[])
 
-    console.log(data);
+    console.log(characters);
+    console.log(window.env);
 
   return (
     <>
