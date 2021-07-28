@@ -39,6 +39,6 @@
     ]
   },
   "react-dotenv": {
-    "whitelist": ["API_URL", "PUBLIC_APIKEY","PRIVATE_APIKEY","MD5_HASH"]
+    "whitelist": ["API_KEY","HASH"]
   }
 }
