@@ -6,7 +6,6 @@ function App() {
   const MarvelData = FetchData();
 
   console.log("fetchData:",MarvelData);
-  
 
   return (
     <>
