@@ -30,7 +30,7 @@ Esta hecha con :green_heart: y:
   
 ## Vista previa
 
-![App Screenshot](...)
+![App Screenshot](https://github.com/jorgearguellles/marvelApp/blob/main/src/img/screenShot.png)
 
  
  ## Retroalimentación
