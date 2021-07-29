@@ -4,18 +4,19 @@ const Wrapper = styled.div`
   width: 16.3rem;
   height: 28.1rem;
   margin: 2rem 4rem 0rem;
-
+  overflow: hidden;
+  flex-shrink: 0;
 `;
+
 const ImgHero = styled.img`
 width: 16rem;
 height: 23.9rem;
 `;
 const TextAddWrapper = styled.div`
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 0.1rem;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.1rem;
 `;
 
 const TextWrapper = styled.div``;
