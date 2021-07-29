@@ -1,6 +1,6 @@
 import Home from "./pages/Home/index";
 import Global from "./globalStyles";
-import FetchData from "./hooks/fetchData";
+import FetchData from "./hooks/useFetchData";
 
 function App() {
   const MarvelData = FetchData();
