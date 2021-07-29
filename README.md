@@ -20,7 +20,7 @@ Esta hecha con :green_heart: y:
 * [Manejo de variables se entorno con React-dotenv](https://www.npmjs.com/package/react-dotenv)
 * [Consumo de datos con Fetch API](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
 * [Datos traidos de la Marvel API](https://www.marvel.com)
-* [Desplegada en AWS Amplify](https://aws.amazon.com)
+* [Desplegada en Vercel](https://vercel.com)
 
   
 ## Demo
