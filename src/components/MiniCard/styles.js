@@ -9,10 +9,12 @@ const Wrapper = styled.div`
 `;
 
 const ImgHero = styled.img`
-  width: 16rem;
+  width: 16.3rem;
   height: 23.9rem;
   object-fit: cover;
-  border-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border: 1px solid black;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   &:hover{
     cursor: pointer;
@@ -22,19 +24,24 @@ const TextAddWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0.1rem;
+  padding: 0.3rem 0.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 `;
 
-const TextWrapper = styled.div``;
+const TextWrapper = styled.div`
+ 
+`;
 const TitleName = styled.p`
 font-weight: bold;
 font-size: 1.8rem;
 line-height: 2.1rem;
 `;
 const HeroName = styled.p`
-font-weight: normal;
-font-size: 1.8rem;
-line-height: 2.1rem;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
 `;
 const AddButton = styled.button`
 width: 3rem;
