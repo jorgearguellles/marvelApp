@@ -1,15 +1,13 @@
-import Hero from "../../img/imgHero.png";
-
 import {Wrapper, ImgHero, TextAddWrapper, TextWrapper, TitleName, HeroName, AddButton} from "./styles";
 
 function Minicard(props){
   return (
     <Wrapper>
-      <ImgHero src={Hero}/>
+      <ImgHero src={props.heroImg}/>
       <TextAddWrapper>
         <TextWrapper>
           <TitleName>Nombre:</TitleName>
-          <HeroName>{props.name}</HeroName>
+          <HeroName>{props.heroName}</HeroName>
         </TextWrapper>
         <AddButton>+</AddButton>
       </TextAddWrapper>

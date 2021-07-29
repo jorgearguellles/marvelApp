@@ -14,8 +14,8 @@ const WrapperResults = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 1.5rem auto;
-  padding-bottom: 18.3rem;
+  margin: auto;
+  padding-bottom: 15rem;
   overflow: auto;
 `;
 
