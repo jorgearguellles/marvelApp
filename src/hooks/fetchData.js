@@ -9,7 +9,7 @@ const FetchData = () => {
   useEffect(() => {
     fetch(API_URL)
       .then((response) => response.json())
-      .then((data => setMarvelData(data)))
+      .then((data => setMarvelData(data.data.results)))
       .catch(error => console.log(error));
   }, [])
   return marvelData

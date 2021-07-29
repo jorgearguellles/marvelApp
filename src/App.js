@@ -4,10 +4,9 @@ import FetchData from "./hooks/fetchData";
 
 function App() {
   const MarvelData = FetchData();
-  console.log(MarvelData);
-  if(MarvelData.code === 200){
-    console.log(MarvelData.data.results[0]);
-  }
+
+  console.log("fetchData:",MarvelData);
+  
 
   return (
     <>
