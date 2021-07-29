@@ -1,7 +1,7 @@
 
 # Marvel App
 
-Es una aplicación en la que puedes buscar tú héroe favorito del universo Marvel para ver en cuentos Comics aparece.
+Es una aplicación diseñada y desarrollada desde cero, en la que puedes buscar tú héroe favorito del universo Marvel para ver en cuentos Comics aparece.
 
 ## Autor
 
