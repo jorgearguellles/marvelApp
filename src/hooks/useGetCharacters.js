@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const API_URL = `https://gateway.marvel.com/v1/public/characters?ts=1&apikey=${env.API_KEY}&hash=${env.HASH}`;
 
-const FetchData = () => {
+const useGetCharacters = () => {
   const [marvelData, setMarvelData] = useState({});
 
   useEffect(() => {
@@ -15,4 +15,4 @@ const FetchData = () => {
   return marvelData
 };
 
-export default FetchData;
+export default useGetCharacters;

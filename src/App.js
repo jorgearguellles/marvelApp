@@ -1,11 +1,11 @@
 import Home from "./pages/Home/index";
 import Global from "./globalStyles";
-import FetchData from "./hooks/useFetchData";
+import useGetCharacters from "./hooks/useGetCharacters";
 
 function App() {
-  const MarvelData = FetchData();
+  const marvelCharacters = useGetCharacters();
 
-  console.log("fetchData:",MarvelData);
+  console.log("fetchData:",marvelCharacters);
 
   return (
     <>
