@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  width: 16.3rem;
+  width: 20.3rem;
   height: 31rem;
   margin: 1rem 4rem 0rem;
   overflow: hidden;
@@ -9,7 +9,7 @@ const Wrapper = styled.div`
 `;
 
 const ImgHero = styled.img`
-  width: 16.3rem;
+  width: 20.3rem;
   height: 23.9rem;
   object-fit: cover;
   border-top-left-radius: 1rem;

@@ -1,24 +1,23 @@
 import styled from "styled-components";
 
 const Logo = styled.img`
-  width: 25rem;
-  height: 11rem;
-  margin-top: 1rem;
+  width: 20rem;
+  height: 10rem;
+  margin: 6rem 0;
 `;
 
 const Wrapper = styled.div`
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto; 
-  padding: 6rem;
 `;
 
 const WrapperForm = styled.form`
-  width: 57rem;
-  height: 50.3rem;
-  margin-top: 3rem;
-  padding-top: 4rem;
+  width: 65rem;
+  height: 50rem;
+  padding: 4rem;
   border: 1px solid #EC1D23;
   border-radius: 50px;
   background-color: white;
@@ -41,6 +40,7 @@ const Title = styled.p`
 const Button = styled.button`
   width: ${props => props.width};
   height: ${props => props.height};
+  margin-top: 30rem;
   background-color: ${props => props.redBackG ? "#EC1D23" : "white"};
   border-radius: 50px;
   border-style: ${props => props.borderStyle};
@@ -62,20 +62,17 @@ const Button = styled.button`
 
 const Text = styled.p`
   font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
   color: #16202A;
-  position: absolute;
-  left: 4rem;
-  bottom: 5rem;
-  
+  margin-top: 3rem;
 `;
 
 const WrapperRS = styled.div`
-  width: 49rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 2.5rem;
+  margin-top: 3rem;
 `;
 
 
