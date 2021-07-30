@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   width: 81.8rem;
-  height: 3rem;
+  height: 3.6rem;
   background-color: white;
   border: 1px solid #EC1D23;
   border-radius: 50px;
@@ -17,7 +17,7 @@ const ImgSearch = styled.img`
 `;
 const Input = styled.input`
   width: 62rem;
-  height: 2.8rem;
+  height: 3rem;
   font-size: 2rem;
   font-family: Roboto;
   font-weight: 250;

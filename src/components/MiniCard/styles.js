@@ -3,9 +3,11 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   width: 20.3rem;
   height: 31rem;
-  margin: 1rem 4rem 0rem;
+  margin: 1rem 2rem 0rem;
   overflow: hidden;
   flex-shrink: 0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
 `;
 
 const ImgHero = styled.img`
@@ -14,7 +16,7 @@ const ImgHero = styled.img`
   object-fit: cover;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-  border: 1px solid black;
+  border: 1px solid white;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   &:hover{
     cursor: pointer;
@@ -24,8 +26,10 @@ const TextAddWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.3rem 0.5rem;
+  padding: 0.2rem 0.5rem;
   background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid white;
+
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 `;

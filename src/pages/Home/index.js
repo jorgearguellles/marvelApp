@@ -16,14 +16,14 @@ function Home(){
         <Header />
         <TitlePage titlePage="Lista de Héroes"/>
         <WrapperResults>
-          {/* {
+          {
             marvelCharacters.map(
               character => <MiniCard id={ marvelCharacters !== null ? character.id : "Loading..."}
               heroName = { marvelCharacters !== null ? character.name : "Loading..."}
               heroImg = { marvelCharacters !== null ? character.thumbnail.path+".jpg" : "Loading..."}
               />
             )
-          } */}
+          }
         </WrapperResults>
         <Footer />
       </Wrapper>
