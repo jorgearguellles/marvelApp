@@ -13,7 +13,7 @@ const Li = styled.li`
 
 `;
 const A = styled.a`
-  color: white;
+  color: ${props => props.whiteText ?  "white" : "#16202A" };
   font-weight: 300;
   font-size: 2.2rem;
   text-decoration: none;

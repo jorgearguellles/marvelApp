@@ -15,8 +15,29 @@ const Wrapper = styled.footer`
 
 const Text = styled.p`
   font-size: 1.3rem;
-  color: #16202A;
+  color: ${props => props.whiteText ?  "white" : "#16202A" };
   margin: 0 1rem;
 `;
 
-export {Wrapper, Text};
+const Nav = styled.nav`
+  width: auto;
+`;
+const Ul = styled.ul`
+  width: auto;
+  display: felx;
+  list-style: none;
+`;
+const Li = styled.li`
+  margin-left: 2rem;
+
+`;
+const A = styled.a`
+  color: ${props => props.whiteText ?  "white" : "#16202A" };
+  font-size: 1.3rem;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+`;
+
+export {Wrapper, Text, Nav,Ul,Li,A};
