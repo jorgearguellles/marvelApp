@@ -1,7 +1,7 @@
 
 # Marvel App
 
-Es una aplicación en la que puedes buscar tú héroe favorito del universo Marvel para ver en cuentos Comics aparece.
+Es una aplicación diseñada y desarrollada desde cero, en la que puedes buscar tú héroe favorito del universo Marvel para ver en cuentos Comics aparece.
 
 ## Autor
 
@@ -20,7 +20,7 @@ Esta hecha con :green_heart: y:
 * [Manejo de variables se entorno con React-dotenv](https://www.npmjs.com/package/react-dotenv)
 * [Consumo de datos con Fetch API](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
 * [Datos traidos de la Marvel API](https://www.marvel.com)
-* [Desplegada en AWS Amplify](https://aws.amazon.com)
+* [Desplegada en Vercel](https://vercel.com)
 
   
 ## Demo
@@ -30,7 +30,7 @@ Esta hecha con :green_heart: y:
   
 ## Vista previa
 
-![App Screenshot](...)
+![App Screenshot](https://github.com/jorgearguellles/marvelApp/blob/main/src/img/screenShot.png)
 
  
  ## Retroalimentación
