@@ -10,7 +10,6 @@ import Loader from "react-loader-spinner";
 function Home(){
   const marvelData = useGetData();
 
-  // console.log("fetchData:",marvelData);
   return(
     <CharactersContext.Provider value={marvelData}>
       <Wrapper>
