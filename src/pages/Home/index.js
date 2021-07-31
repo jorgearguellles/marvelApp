@@ -4,25 +4,28 @@ import MiniCard from "../../components/MiniCard/index";
 import {Wrapper ,WrapperResults} from "./styles";
 import Footer from "../../components/Footer/index";
 import CharactersContext from "../../context/CharactersContext";
-import useGetCharacters from "../../hooks/useGetCharacters";
+import useGetData from "../../hooks/useGetData";
 
 function Home(){
-  const marvelCharacters = useGetCharacters();
+  const marvelData = useGetData();
 
-  console.log("fetchData:",marvelCharacters);
+  // console.log("fetchData:",marvelData);
   return(
-    <CharactersContext.Provider value={marvelCharacters}>
+    <CharactersContext.Provider value={marvelData}>
       <Wrapper>
         <Header />
         <TitlePage titlePage="Lista de Héroes"/>
         <WrapperResults>
           {
-            marvelCharacters.map(
-              character => <MiniCard id={ marvelCharacters !== null ? character.id : "Loading..."}
-              heroName = { marvelCharacters !== null ? character.name : "Loading..."}
-              heroImg = { marvelCharacters !== null ? character.thumbnail.path+".jpg" : "Loading..."}
-              />
-            )
+          marvelData.code === 200
+            ? marvelData.data.results.map(
+              character => 
+                <MiniCard key={ marvelData.data.results !== null ? character.id : "Loading..."}
+                  heroName = { marvelData.data.results !== null ? character.name : "Loading..."}
+                  heroImg = { marvelData.data.results !== null ? character.thumbnail.path+".jpg" : "Loading..."}
+                />
+              )
+            : "Loading..."
           }
         </WrapperResults>
         <Footer />
