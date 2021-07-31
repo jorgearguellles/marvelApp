@@ -6,8 +6,6 @@ const Wrapper = styled.div`
   margin: 1rem 2rem 0rem;
   overflow: hidden;
   flex-shrink: 0;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
 `;
 
 const ImgHero = styled.img`

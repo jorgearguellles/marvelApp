@@ -5,6 +5,7 @@ import {Wrapper ,WrapperResults} from "./styles";
 import Footer from "../../components/Footer/index";
 import CharactersContext from "../../context/CharactersContext";
 import useGetData from "../../hooks/useGetData";
+import Loader from "react-loader-spinner";
 
 function Home(){
   const marvelData = useGetData();
@@ -25,7 +26,13 @@ function Home(){
                   heroImg = { marvelData.data.results !== null ? character.thumbnail.path+".jpg" : "Loading..."}
                 />
               )
-            : "Loading..."
+            : <Loader
+                type="Puff"
+                color="#00BFFF"
+                height={150}
+                width={150}
+                timeout={3000} //3 secs
+              />
           }
         </WrapperResults>
         <Footer />
