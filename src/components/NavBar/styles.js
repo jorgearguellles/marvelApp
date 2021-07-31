@@ -17,9 +17,12 @@ const A = styled.a`
   font-weight: 300;
   font-size: 2.2rem;
   text-decoration: none;
+  padding: 0.5rem 2rem;
+  border-radius: 5rem;
 
   &:hover {
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 `;
 
