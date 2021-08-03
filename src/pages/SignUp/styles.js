@@ -30,7 +30,7 @@ const Title = styled.p`
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
-  margin-bottom: 3rem;
+  margin: 1rem;
   align-self: center;
 `;
 
@@ -63,7 +63,7 @@ const Text = styled.p`
   font-size: 1.5rem;
   line-height: 2.1rem;
   color: #16202A;
-  margin-top: 3rem;
+  margin-top: 2rem;
 `;
 
 const TextSignUp = styled(Text)`
@@ -74,7 +74,7 @@ const WrapperRS = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin-top: 2rem;
 `;
 
 
