@@ -7,22 +7,20 @@ const Logo = styled.img`
 `;
 
 const Wrapper = styled.div`
-  width: 100vw;
-  height: 100vh;
+  max-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
 `;
 
 const WrapperForm = styled.form`
-  width: 60rem;
+  max-width: 60rem;
+  width: 90%;
   height: 47rem;
   padding: 4rem;
   border: 1px solid #EC1D23;
   border-radius: 50px;
   background-color: white;
-  display: flex;
-  flex-direction: column;
 `;
 
 const Title = styled.p`
@@ -30,32 +28,8 @@ const Title = styled.p`
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
-  margin: 1rem;
-  align-self: center;
-`;
-
-
-const Button = styled.button`
-  width: ${props => props.width};
-  height: ${props => props.height};
-  margin-top: 30rem;
-  background-color: ${props => props.redBackG ? "#EC1D23" : "white"};
-  border-radius: 50px;
-  border-style: ${props => props.borderStyle};
-  border-width: ${props => props.borderWidth};
-  border-color: ${props => props.borderColor};
-  outline: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: ${props => props.fontWeight};
-  font-size: ${props => props.fontSize};
-  line-height: ${props => props.lineHeight};
+  margin-bottom: 1rem;
   text-align: center;
-  color: ${props => props.whiteText ?  "white" : "#16202A" };
-
-  &:hover {
-    cursor:pointer;
-  }
 `;
 
 const Text = styled.p`
@@ -78,4 +52,4 @@ const WrapperRS = styled.div`
 `;
 
 
-export {Logo, Wrapper, WrapperForm, WrapperRS, Title, Button, Text, TextSignUp};
+export {Logo, Wrapper, WrapperForm, WrapperRS, Title, Text, TextSignUp};
