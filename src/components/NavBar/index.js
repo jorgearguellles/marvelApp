@@ -1,11 +1,20 @@
-import { Nav,Ul,Li,A} from "./styles";
+import { Link } from "react-router-dom";
+import { Nav,Ul,Li,LinkNavBar} from "./styles";
 
-function NavBar(props){
+function NavBar(){
   return(
     <Nav>
       <Ul>
-        <Li><A href={props.href1} whiteText target={props.target1}>{props.link1}</A></Li>
-        <Li><A href={props.href2} whiteText target={props.target2}>{props.link2}</A></Li>
+        <Li>
+          <Link to="/login" >
+            <LinkNavBar whiteText>Log In</LinkNavBar>
+          </Link>
+        </Li>
+        <Li>
+          <Link to="/favorites" >
+            <LinkNavBar whiteText>Favorites</LinkNavBar>
+          </Link>
+        </Li>
       </Ul>
     </Nav>
   )

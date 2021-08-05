@@ -7,6 +7,7 @@ import LogIn from "../pages/LogIn"
 import NotFound from "../pages/NotFound";
 import SignUp from "../pages/SignUp";
 import HeroDetails from "../pages/HeroDetails";
+import Favorites from "../pages/Favorites";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/login" component={LogIn}/>
           <Route exact path="/signup" component={SignUp}/>
           <Route exact path="/hero" component={HeroDetails}/>
+          <Route exact path="/favorites" component={Favorites}/>
           <Route component={NotFound} />
         </Switch>
       </AuthProvider>

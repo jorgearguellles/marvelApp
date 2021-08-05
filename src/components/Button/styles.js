@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Button = styled.button`
   width: ${props => props.width};
   height: ${props => props.height};
-  margin-top: 1rem;
+  margin-top: ${props => props.margin-top};
   background-color: ${props => props.redBackG ? "#EC1D23" : "white"};
   border-radius: 50px;
   border-style: ${props => props.borderStyle};

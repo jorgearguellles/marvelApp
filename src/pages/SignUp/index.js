@@ -1,23 +1,19 @@
 import React, { useRef, useState } from "react";
+import { Link, useHistory } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
-
 import {Label, Text, Input} from "../../components/InputLabel/styles";
 import Button from "../../components/Button/styles";
 import MarvelLogo from "../../img/Marvel_Logo.png";
-import {Logo, Wrapper, WrapperForm, WrapperRS, ErrorText,Title, TextSignUp} from "./styles";
+import {Logo, Wrapper, WrapperForm, WrapperRS, ErrorText,Title, TextSignUp, LinkText} from "./styles";
 
 function SignUp(){
   const emailRef = useRef();
   const passwordRef = useRef();
   const passwordConfirmationRef = useRef();
-  console.log( emailRef.current, 
-    passwordRef.current, 
-    passwordConfirmationRef.current);
-
   const { signup } = useAuth();
-
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const history = useHistory();
 
   async function handleSubmit(e){
     e.preventDefault()
@@ -30,6 +26,7 @@ function SignUp(){
       setError("")
       setLoading(true)
       await signup(emailRef.current.value, passwordRef.current.value)
+      history.push("/")
     } catch {
       setError( "Failed to create an account")
     }
@@ -60,7 +57,11 @@ function SignUp(){
             <Button width="47%" max-width="20rem" height="3.5rem" borderWidth="1px" borderColor="black" fontWeight="Bold" fontSize="1.8rem" lineHeight="2rem">Facebook</Button>
           </WrapperRS>
         </WrapperForm>
-          <TextSignUp>Already have an Account? Log In</TextSignUp>
+          <TextSignUp>Already have an Account?
+            <Link to="/login" >
+              <LinkText>Log In</LinkText>
+            </Link>
+          </TextSignUp>
       </Wrapper>
   )
 };

@@ -12,7 +12,7 @@ const Li = styled.li`
   margin-left: 2rem;
 
 `;
-const A = styled.a`
+const LinkNavBar = styled.p`
   color: ${props => props.whiteText ?  "white" : "#16202A" };
   font-weight: 300;
   font-size: 2.2rem;
@@ -26,4 +26,4 @@ const A = styled.a`
   }
 `;
 
-export { Nav,Ul,Li,A};
+export { Nav,Ul,Li,LinkNavBar};

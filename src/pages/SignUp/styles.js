@@ -33,8 +33,8 @@ const Title = styled.p`
 `;
 
 const ErrorText = styled.span`
-  margin-left: calc(50% - 7rem);
-  padding: 0 0.1rem;
+  margin-left: calc(50% - 8rem);
+  padding: 0 1rem;
   font-size: 1.3rem;
   background-color: #FFAFAE;
   text-align: center;
@@ -59,7 +59,11 @@ const WrapperRS = styled.div`
   margin-top: 2rem;
 `;
 
+const LinkText = styled.span`
+  color: #7EBDFD;
+  margin-left: 1rem;
+`;
 
 
 
-export {Logo, Wrapper, WrapperForm, WrapperRS, Title, ErrorText,Text, TextSignUp};
+export {Logo, Wrapper, WrapperForm, WrapperRS, Title, ErrorText,Text, TextSignUp, LinkText};

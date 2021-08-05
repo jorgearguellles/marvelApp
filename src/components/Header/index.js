@@ -8,7 +8,7 @@ function Header(){
     <Wrapper>
       <LogoImg src={MarvelLogo} />
       <SearchBar placeholder="Busca a tu súper héroe favorito"/>
-      <NavBar link1="Log In" link2="Favoritos" />
+      <NavBar />
     </Wrapper>
   )
 }
