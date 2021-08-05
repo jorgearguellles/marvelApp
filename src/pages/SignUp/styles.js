@@ -32,6 +32,14 @@ const Title = styled.p`
   text-align: center;
 `;
 
+const ErrorText = styled.span`
+  margin-left: calc(50% - 7rem);
+  padding: 0 0.1rem;
+  font-size: 1.3rem;
+  background-color: #FFAFAE;
+  text-align: center;
+`;
+
 const Text = styled.p`
   font-weight: normal;
   font-size: 1.5rem;
@@ -52,4 +60,6 @@ const WrapperRS = styled.div`
 `;
 
 
-export {Logo, Wrapper, WrapperForm, WrapperRS, Title, Text, TextSignUp};
+
+
+export {Logo, Wrapper, WrapperForm, WrapperRS, Title, ErrorText,Text, TextSignUp};

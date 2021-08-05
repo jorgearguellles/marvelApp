@@ -1,5 +1,5 @@
 import {BrowserRouter,Switch ,Route} from "react-router-dom";
-import AuthProvider from "../context/AuthContext";
+import {AuthProvider} from "../context/AuthContext";
 
 import Global from "../globalStyles";
 import Home from "../pages/Home/index";
@@ -10,9 +10,9 @@ import HeroDetails from "../pages/HeroDetails";
 
 function App() {
   return (
-    <AuthProvider>
-      <BrowserRouter>
-        <Global />
+    <BrowserRouter>
+      <Global />
+      <AuthProvider>
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/login" component={LogIn}/>
@@ -20,8 +20,8 @@ function App() {
           <Route exact path="/hero" component={HeroDetails}/>
           <Route component={NotFound} />
         </Switch>
-      </BrowserRouter>
-    </AuthProvider>
+      </AuthProvider>
+    </BrowserRouter>
   );
 }
 

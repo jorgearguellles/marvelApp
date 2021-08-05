@@ -17,7 +17,7 @@ const Text = styled.span`
 
 const Input = styled.input`
   width: 100%;
-  height: 3rem;
+  height: 3.5rem;
   border: 1px solid #EC1D23;
   border-radius: 50px;
   outline: none;

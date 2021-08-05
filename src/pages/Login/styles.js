@@ -21,8 +21,6 @@ const WrapperForm = styled.form`
   border: 1px solid #EC1D23;
   border-radius: 50px;
   background-color: white;
-  display: flex;
-  flex-direction: column;
 `;
 
 const Title = styled.p`
@@ -31,7 +29,7 @@ const Title = styled.p`
   font-size: 30px;
   line-height: 35px;
   margin-bottom: 3rem;
-  align-self: center;
+  text-align: center;
 `;
 
 
