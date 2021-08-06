@@ -29,6 +29,10 @@ function Login(){
     setLoading(false);
   }
 
+  const linkStyle = {
+    textDecoration: "none"
+  }
+
   return(
       <Wrapper>
         <Logo src={MarvelLogo}/>
@@ -50,7 +54,7 @@ function Login(){
           </WrapperRS>
         </WrapperForm>
           <TextSignUp>Need an Account?
-            <Link to="/signup">
+            <Link to="/signup" style={linkStyle}>
               <LinkText>Sign Up</LinkText>
             </Link>
           </TextSignUp>

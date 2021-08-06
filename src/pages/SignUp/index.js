@@ -6,6 +6,8 @@ import Button from "../../components/Button/styles";
 import MarvelLogo from "../../img/Marvel_Logo.png";
 import {Logo, Wrapper, WrapperForm, WrapperRS, ErrorText,Title, TextSignUp, LinkText} from "./styles";
 
+
+
 function SignUp(){
   const emailRef = useRef();
   const passwordRef = useRef();
@@ -33,6 +35,10 @@ function SignUp(){
     setLoading(false);
   }
 
+  const linkStyle = {
+    textDecoration: "none"
+  }
+
   return(
       <Wrapper>
         <Logo src={MarvelLogo}/>
@@ -58,7 +64,7 @@ function SignUp(){
           </WrapperRS>
         </WrapperForm>
           <TextSignUp>Already have an Account?
-            <Link to="/login" >
+            <Link to="/login" style={linkStyle} >
               <LinkText>Log In</LinkText>
             </Link>
           </TextSignUp>
