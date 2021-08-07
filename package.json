@@ -38,7 +38,14 @@
   "react-dotenv": {
     "whitelist": [
       "API_KEY",
-      "HASH"
+      "HASH",
+      "apiKey",
+      "authDomain",
+      "projectId",
+      "storageBucket",
+      "messagingSenderId",
+      "appId",
+      "measurementId"
     ]
   }
 }
