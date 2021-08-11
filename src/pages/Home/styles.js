@@ -17,6 +17,18 @@ const WrapperResults = styled.div`
   margin: auto;
   padding-bottom: 15rem;
   overflow: auto;
+
+  &::-webkit-scrollbar {
+    // background: rgba(0, 0, 0, 0.5);
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: white; 
+    cursor: pointer;
+    border-radius: 5rem;
+
+  }
+
 `;
 
 export { Wrapper,WrapperResults};
